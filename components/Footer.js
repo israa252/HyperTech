@@ -122,12 +122,12 @@ const Footer = () => {
               <ContactItem>
                 <FontAwesomeIcon icon={faDotCircle} />
                 <strong>ADDRESS:</strong>
-                <span>Gaza, Al-Nasr, Tamous junction near Al-Aqsa TV</span>
+                <span>company:Gaza, Al-Nasr, Tamous junction , Gallery: Al Remal - Al Kanz street  </span>
               </ContactItem>
               <ContactItem>
                 <FontAwesomeIcon icon={ faPhone} />
                 <strong>PHONE:</strong>
-                <span>(970) 08 285 4409</span>
+                <span> 0597444080 </span>
               </ContactItem>
               <ContactItem>
                 <FontAwesomeIcon icon={faEnvelope} />
