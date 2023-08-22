@@ -12,7 +12,10 @@ const Bg = styled.div`
   background-image: url("img/jj.jpg");
   background-size: cover;
   background-position: center;
-  opacity: 0.9;
+  opacity: 0.8;
+    @media  (max-width: 800px) {
+     padding:31px;
+      opacity: 0.8;
 `;
 
 const Title = styled.h1`
@@ -23,6 +26,16 @@ const Title = styled.h1`
   font-weight: 900;
   font-size: 1.2rem;
   transition: font-size 0.3s ease-in-out;
+  
+  @media  (max-width: 800px) {
+    text-align:center;
+    font-size: .9rem;
+    color:#ede9e9;
+      
+     
+    
+ 
+  }
   
   
 `;
