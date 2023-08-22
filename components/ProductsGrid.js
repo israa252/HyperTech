@@ -23,7 +23,7 @@ export default function ProductsGrid({ products }) {
   const sliderSettings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 800,
      autoplay: true, // Enable autoplay
     autoplaySpeed: 1000, // Set autoplay interval in milliseconds (e.g., 3 seconds)
     slidesToShow: 4, // Number of products to show per slide
