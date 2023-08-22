@@ -12,7 +12,7 @@ const Bg = styled.div`
   background-image: url("img/jj.jpg");
   background-size: cover;
   background-position: center;
-  opacity: 0.4;
+  opacity: 0.9;
 `;
 
 const Title = styled.h1`
