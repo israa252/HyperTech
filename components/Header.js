@@ -56,7 +56,7 @@ const StyledNav = styled.nav`
   bottom: 0;
   left: 0;
   right: 0;
-  height:50%;
+  height:100%;
   padding: 20px;
   background-color: #222;
   
