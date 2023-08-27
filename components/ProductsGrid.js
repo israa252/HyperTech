@@ -22,9 +22,9 @@ export default function ProductsGrid({ products }) {
   // Settings for the react-slick slider
   const sliderSettings = {
     
-    speed: 100,
+    speed: 400,
      autoplay: true, // Enable autoplay
-    autoplaySpeed: 1000, // Set autoplay interval in milliseconds (e.g., 3 seconds)
+    autoplaySpeed: 800, // Set autoplay interval in milliseconds (e.g., 3 seconds)
     slidesToShow: 4, // Number of products to show per slide
     slidesToScroll: 1,
     responsive: [
