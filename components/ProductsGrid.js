@@ -24,7 +24,7 @@ export default function ProductsGrid({ products }) {
     
     speed: 900,
      autoplay: true, // Enable autoplay
-    autoplaySpeed: 800, // Set autoplay interval in milliseconds (e.g., 3 seconds)
+    autoplaySpeed: 2000, // Set autoplay interval in milliseconds (e.g., 3 seconds)
     slidesToShow: 4, // Number of products to show per slide
     slidesToScroll: 1,
     responsive: [
