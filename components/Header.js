@@ -29,7 +29,7 @@ const LogoImage = styled.img`
   @media (max-width: 488px) {
       
       margin:-5px; 
-      width:80px;/* Adjust logo size for smaller screens */
+      width:70px;/* Adjust logo size for smaller screens */
     }
 `;
 
@@ -49,21 +49,23 @@ const StyledNav = styled.nav`
       : `
     display: none;
   `}
-  ${'' /* gap: 15px; */}
+  gap: 15px;
   position: fixed;
   z-index:3;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height:100%;
+  height:80%;
   padding: 20px;
+   
   background-color: #222;
   
-  @media screen and (min-width: 768px) {
+  @media   (min-width: 768px) {
     display: flex;
     position: static;
-    padding: 0;
+    padding: 0px;
+   
   }
 `;
 
@@ -71,15 +73,18 @@ const NavLink = styled(Link)`
   display: flex;
   color: #f8f5f5;
   text-decoration: none;
-  
-  margin: 10px;
+  margin: 12px;
   align-items: center;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;
-  @media screen and (min-width: 768px) {
-    padding: 0;
+  &:hover {
+      color: rgb(214, 127, 127);
+    }
+  @media  (max-width: 768px) {
+    padding: 10px;
+    margin: 20px;
     &:hover {
-      color: rgba(228, 63, 63, 0.5);
+      color: rgb(214, 127, 127);
     }
   }
 `;
@@ -104,24 +109,29 @@ const CartIconWrapper = styled.div`
 `;
 
 const CartIcon = styled(FaShoppingCart)`
-  font-size: 24px;
- @media screen and (min-width: 480px) {
+  font-size: 25px;
+ @media   (min-width: 480px) {
     padding: 0;
     &:hover {
-      color: rgba(228, 63, 63, 0.5);
+      color: rgb(211, 108, 108);
     }
   }
 `;
 
 const CartBadge = styled.span`
   position: absolute;
-  top: -5px;
-  right: -10px;
+  top: -1px;
+  right: -2px;
   background-color: red;
   color: white;
   font-size: 12px;
   padding: 2px 5px;
   border-radius: 50%;
+  @media   (max-width: 768px) {
+    position: relative;
+    top: -12px;
+  right: -2px;
+  }
 `;
 
 const SearchIcon = styled(FaSearch)`
@@ -130,10 +140,10 @@ const SearchIcon = styled(FaSearch)`
   margin-top: 11px;
   margin-left: 10px;
   cursor: pointer;
-  @media screen and (min-width: 768px) {
-    padding: 0;
+  @media (max-width: 768px) {
+     margin-left:30px;
     &:hover {
-      color: rgba(228, 63, 63, 0.5);
+      color: rgb(214, 127, 127);
     }
   }
 `;
