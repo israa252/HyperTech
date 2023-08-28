@@ -24,7 +24,7 @@ const FlexContainer = styled.div`
 `;
 
 const Box = styled.div`
-  background-color: #8b0d0d;
+  background-color: gray;
   padding: 15px;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6);
   color:white;
